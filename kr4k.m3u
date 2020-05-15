@@ -1,0 +1,48 @@
+#EXTM3U
+#EXTINF:0,JTBC Golf (HEVC)
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:sout=#transcode{vcodec=h264,vb=800,acodec=mpga,ab=128,channels=2,ttl=12,samplerate=44100,scodec=none}:duplicate{dst=udp{mux=ts,dst=udp://@211.245.55.198:1024},dst=display}
+#EXTVLCOPT:sout-all
+#EXTVLCOPT:sout-keep
+http://211.245.55.198:1024/m2u/239.192.67.165:49220
+
+#EXTINF:0,SBS GOLF (HEVC)
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:sout=#transcode{vcodec=h264,vb=800,acodec=mpga,ab=128,channels=2,ttl=12,samplerate=44100,scodec=none}:duplicate{dst=udp{mux=ts,dst=udp://@211.245.55.198:1024},dst=display}
+#EXTVLCOPT:sout-all
+#EXTVLCOPT:sout-keep
+http://211.245.55.198:1024/m2u/239.192.67.164:49220
+
+#EXTINF:0,CNN International
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:sout=#transcode{vcodec=h264,vb=800,acodec=mpga,ab=128,channels=2,ttl=12,samplerate=44100,scodec=none}:duplicate{dst=udp{mux=ts,dst=udp://@211.245.55.198:1024},dst=display}
+#EXTVLCOPT:sout-all
+#EXTVLCOPT:sout-keep
+http://211.245.55.198:1024/m2u/239.192.69.111:49220
+
+#EXTINF:0, tvg-id="5" tvg-logo="http://i.imgur.com/K2ztoDT.png" tvg-name="SBS"  group-title="--" - kbc_SBS #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:sout=#transcode{vcodec=h264,vb=800,acodec=mpga,ab=128,channels=2,ttl=12,samplerate=44100,scodec=none}:duplicate{dst=udp{mux=ts,dst=udp://@211.245.55.198:1024},dst=display}
+#EXTVLCOPT:sout-all
+#EXTVLCOPT:sout-keep
+http://211.245.55.198:1024/m2u/239.192.150.28:49220
+
+#EXTINF:0,NHK World Premium
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:sout=#transcode{vcodec=h264,vb=800,acodec=mpga,ab=128,channels=2,ttl=12,samplerate=44100,scodec=none}:duplicate{dst=udp{mux=ts,dst=udp://@211.245.55.198:1024},dst=display}
+#EXTVLCOPT:sout-all
+#EXTVLCOPT:sout-keep
+http://211.245.55.198:1024/m2u/239.192.69.207:49220
+
+#EXTINF:0,KTV
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:sout=#transcode{vcodec=h264,vb=800,acodec=mpga,ab=128,channels=2,ttl=12,samplerate=44100,scodec=none}:duplicate{dst=udp{mux=ts,dst=udp://@211.245.55.198:1024},dst=display}
+#EXTVLCOPT:sout-all
+#EXTVLCOPT:sout-keep
+http://211.245.55.198:1024/m2u/239.192.64.11:49220
+
+#EXTINF:0,YTN
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:sout=#transcode{vcodec=h264,vb=800,acodec=mpga,ab=128,channels=2,ttl=12,samplerate=44100,scodec=none}:duplicate{dst=udp{mux=ts,dst=udp://@211.245.55.198:1024},dst=display}
+#EXTVLCOPT:sout-all
+#EXTVLCOPT:sout-keep
+http://211.245.55.198:1024/m2u/239.192.47.7:49220
