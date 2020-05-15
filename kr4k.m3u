@@ -1783,17 +1783,20 @@ http://211.245.55.198:1024/m2u/239.192.69.67:49220
 #EXTVLCOPT:sout-all
 #EXTVLCOPT:sout-keep
 http://211.245.55.198:1024/m2u/239.192.69.139:49220
-#EXTINF:0,C#EXTVLCOPT:network-caching=1000
+#EXTINF:0,C
+#EXTVLCOPT:network-caching=1000
 #EXTVLCOPT:sout=#transcode{vcodec=h264,vb=800,acodec=mpga,ab=128,channels=2,ttl=12,samplerate=44100,scodec=none}:duplicate{dst=udp{mux=ts,dst=udp://@211.245.55.198:1024},dst=display}
 #EXTVLCOPT:sout-all
 #EXTVLCOPT:sout-keep
 http://211.245.55.198:1024/m2u/239.192.69.72:49220
-#EXTINF:0,BTN #EXTVLCOPT:network-caching=1000
+#EXTINF:0,BTN 
+#EXTVLCOPT:network-caching=1000
 #EXTVLCOPT:sout=#transcode{vcodec=h264,vb=800,acodec=mpga,ab=128,channels=2,ttl=12,samplerate=44100,scodec=none}:duplicate{dst=udp{mux=ts,dst=udp://@211.245.55.198:1024},dst=display}
 #EXTVLCOPT:sout-all
 #EXTVLCOPT:sout-keep
 http://211.245.55.198:1024/m2u/239.192.69.79:49220
-#EXTINF:0,BBS #EXTVLCOPT:network-caching=1000
+#EXTINF:0,BBS 
+#EXTVLCOPT:network-caching=1000
 #EXTVLCOPT:sout=#transcode{vcodec=h264,vb=800,acodec=mpga,ab=128,channels=2,ttl=12,samplerate=44100,scodec=none}:duplicate{dst=udp{mux=ts,dst=udp://@211.245.55.198:1024},dst=display}
 #EXTVLCOPT:sout-all
 #EXTVLCOPT:sout-keep
@@ -1804,7 +1807,8 @@ http://211.245.55.198:1024/m2u/239.192.69.136:49220
 #EXTVLCOPT:sout-all
 #EXTVLCOPT:sout-keep
 http://211.245.55.198:1024/m2u/239.192.69.196:49220
-#EXTINF:0,STB #EXTVLCOPT:network-caching=1000
+#EXTINF:0,STB 
+#EXTVLCOPT:network-caching=1000
 #EXTVLCOPT:sout=#transcode{vcodec=h264,vb=800,acodec=mpga,ab=128,channels=2,ttl=12,samplerate=44100,scodec=none}:duplicate{dst=udp{mux=ts,dst=udp://@211.245.55.198:1024},dst=display}
 #EXTVLCOPT:sout-all
 #EXTVLCOPT:sout-keep
