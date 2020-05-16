@@ -1,0 +1,44 @@
+#EXTM3U
+#EXTINF:0,SBS GOLF (HEVC)
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:sout=#transcode{vcodec=h264,vb=800,acodec=mpga,ab=128,channels=2,ttl=12,samplerate=44100,scodec=none}:duplicate{dst=udp{mux=ts,dst=udp://@211.245.55.198:1024},dst=display}
+#EXTVLCOPT:sout-all
+#EXTVLCOPT:sout-keep
+http://211.245.55.198:1024/m2u/239.192.67.164:49220
+
+#EXTINF:0,KBS1 (HEVC)
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:sout=#transcode{vcodec=h264,vb=800,acodec=mpga,ab=128,channels=2,ttl=12,samplerate=44100,scodec=none}:duplicate{dst=udp{mux=ts,dst=udp://@211.245.55.198:1024},dst=display}
+#EXTVLCOPT:sout-all
+#EXTVLCOPT:sout-keep
+http://211.245.55.198:1024/m2u/239.192.67.100:49220
+
+#EXTINF:0,KBS2 (HEVC)
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:sout=#transcode{vcodec=h264,vb=800,acodec=mpga,ab=128,channels=2,ttl=12,samplerate=44100,scodec=none}:duplicate{dst=udp{mux=ts,dst=udp://@211.245.55.198:1024},dst=display}
+#EXTVLCOPT:sout-all
+#EXTVLCOPT:sout-keep
+http://211.245.55.198:1024/m2u/239.192.67.99:49220
+
+#EXTINF:-1,|USA| CNN HD
+http://iptv8.premium-stv.com:2052/SOURCEUSAPRO1d/687616d9712@/1819
+
+#EXTINF:-1,|US| STARZ CINEMA HD
+http://panel.restpremium.cf:8080/serverbr/0392332904/77015
+
+#EXTINF:-1 tvg-id="25" tvg-logo="http://i.imgur.com/6ORm0Rz.png" tvh-chnum="25" tvh-tags="K HOME SHOP",K HOME SHOP
+
+http://211.245.55.198:1024/m2u/239.192.66.17:49220&VideoCodec=h264&AudioCodec=mp3,aac&VideoBitrate=6791500&AudioBitrate=208500&AudioStreamIndex=-1&TranscodingMaxAudioChannels=2&SegmentContainer=ts&MinSegments=1&BreakOnNonKeyFrames=True&ManifestSubtitles=vtt&h264-profile=high,main,baseline,constrainedbaseline,high10&h264-level=51&TranscodeReasons=ContainerNotSupported.webm
+
+#EXTINF:-1 tvg-id="32" tvg-logo="http://i.imgur.com/VBMFcZ3.png" tvh-chnum="32" tvh-tags="MBC DRAMA",MBC DRAMA
+
+http://211.245.55.198:1024/m2u/239.192.48.6:49220&VideoCodec=h264&AudioCodec=mp3,aac&VideoBitrate=6791500&AudioBitrate=208500&AudioStreamIndex=-1&TranscodingMaxAudioChannels=2&SegmentContainer=ts&MinSegments=1&BreakOnNonKeyFrames=True&ManifestSubtitles=vtt&h264-profile=high,main,baseline,constrainedbaseline,high10&h264-level=51&TranscodeReasons=ContainerNotSupported.webm
+
+#EXTINF:-1 tvg-logo="cnn international"  group-title="News",CNN International
+http://203.153.218.28:9981/stream/channelid/1328589592?ticket=3A77BAE803C77F261879F637E4B795AB373D238F&profile=pass
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Korean" tvg-logo="https://i.imgur.com/jgexArm.png" group-title="",YTN
+http://ytnmmd.mmdlive.lldns.net/ytnmmd/9484b70302db4786886ae40308bf45a1/chunklist_b2592000.m3u8
+
+#EXTINF:-1 tvg-id="55" tvg-name="????" tvg-language="Chinese" tvg-logo="" group-title="",????
+http://stream.snrtv.com/sxtvs-star.m3u8
