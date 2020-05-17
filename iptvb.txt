@@ -37,11 +37,5 @@ http://211.245.55.198:1024/m2u/239.192.66.17:49220&VideoCodec=h264&AudioCodec=mp
 
 http://211.245.55.198:1024/m2u/239.192.48.6:49220&VideoCodec=h264&AudioCodec=mp3,aac&VideoBitrate=6791500&AudioBitrate=208500&AudioStreamIndex=-1&TranscodingMaxAudioChannels=2&SegmentContainer=ts&MinSegments=1&BreakOnNonKeyFrames=True&ManifestSubtitles=vtt&h264-profile=high,main,baseline,constrainedbaseline,high10&h264-level=51&TranscodeReasons=ContainerNotSupported.webm
 
-#EXTINF:-1 tvg-logo="cnn international"  group-title="News",CNN International
-http://203.153.218.28:9981/stream/channelid/1328589592?ticket=3A77BAE803C77F261879F637E4B795AB373D238F&profile=pass
-
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Korean" tvg-logo="https://i.imgur.com/jgexArm.png" group-title="",YTN
 http://ytnmmd.mmdlive.lldns.net/ytnmmd/9484b70302db4786886ae40308bf45a1/chunklist_b2592000.m3u8
-
-#EXTINF:-1 tvg-id="55" tvg-name="????" tvg-language="Chinese" tvg-logo="" group-title="",????
-http://stream.snrtv.com/sxtvs-star.m3u8
