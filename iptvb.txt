@@ -20,6 +20,9 @@ http://211.245.55.198:1024/m2u/239.192.67.100:49220
 #EXTVLCOPT:sout-keep
 http://211.245.55.198:1024/m2u/239.192.67.99:49220
 
+#EXTINF: -1 tvg-ID = "" tvg-name = "LOCAL - TV One" tvg-logo = "" judul-grup = "Lokal", LOCAL - TV One
+http://iptv.elcodemedia.net:8118/live/z16IN5x9QC/WElJK8Q92F/1926.ts
+
 #EXTINF:-1,|USA| CNN HD
 http://iptv8.premium-stv.com:2052/SOURCEUSAPRO1d/687616d9712@/1819
 
